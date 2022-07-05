@@ -6,21 +6,3 @@ datasource db {
     provider = "mongodb"
     url      = env("DATABASE_URL")
 }
-
-model Sign {
-    id        String @id @default(auto()) @map("_id") @db.ObjectId
-    letter    String
-    image_url String
-
-    @@map("signs")
-}
-
-model Story {
-    id            String @id @default(auto()) @map("_id") @db.ObjectId
-    name          String
-    xp_points     Int
-    exercise_path String
-    image_url     String
-
-    @@map("stories")
-}
