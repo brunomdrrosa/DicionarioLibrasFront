@@ -340,21 +340,324 @@
         "name": "Fácil",
         "path": "facil",
         "image_url": "https://i.imgur.com/T3Hpssi.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Estratégia",
+            "answers": [
+              {
+                "word": "Estratégia",
+                "path": "https://i.imgur.com/Ov2sFHV.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Gato",
+                "path": "https://i.imgur.com/4esdQAS.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Fogo",
+                "path": "https://i.imgur.com/j1W9sHV.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Objetivo",
+            "answers": [
+              {
+                "word": "Escada",
+                "path": "https://i.imgur.com/WgDYVJo.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Objetivo",
+                "path": "https://i.imgur.com/YbjHaW9.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Anel",
+                "path": "https://i.imgur.com/rk26OaF.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Cultura organizacional",
+            "answers": [
+              {
+                "word": "Tchau",
+                "path": "https://i.imgur.com/nwh9SZ0.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cachorro",
+                "path": "https://i.imgur.com/l9wolpc.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cultura organizacional",
+                "path": "https://i.imgur.com/VAUsAYC.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Sustentabilidade",
+            "answers": [
+              {
+                "word": "Cama",
+                "path": "https://i.imgur.com/V6B6BhG.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Calor",
+                "path": "https://i.imgur.com/LL8gES3.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Sustentabilidade",
+                "path": "https://i.imgur.com/fr1bjIk.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Valores",
+            "answers": [
+              {
+                "word": "Maçã",
+                "path": "https://i.imgur.com/yMu0Kj9.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Valores",
+                "path": "https://i.imgur.com/I0cz6Hl.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Pai",
+                "path": "https://i.imgur.com/7zXBINk.gif",
+                "right_answer": false
+              }
+            ]
+          }
+        ]
       },
       {
         "difficulty": "medium",
         "name": "Médio",
         "path": "medio",
         "image_url": "https://i.imgur.com/s4YwheM.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Gestão por objetivos",
+            "answers": [
+              {
+                "word": "Gestão por objetivos",
+                "path": "https://i.imgur.com/cW9mLn5.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Te amo",
+                "path": "https://i.imgur.com/XbrzRoK.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Gestão por meta",
+                "path": "https://i.imgur.com/BO3ukUD.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Brainstorming",
+            "answers": [
+              {
+                "word": "Luminária",
+                "path": "https://i.imgur.com/otbHhre.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Brainstorming",
+                "path": "https://i.imgur.com/ebTivFJ.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Luz",
+                "path": "https://i.imgur.com/UuPfXrD.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Parâmetro",
+            "answers": [
+              {
+                "word": "Medida",
+                "path": "https://i.imgur.com/l1ZNVcs.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Comparação",
+                "path": "https://i.imgur.com/daF8WDY.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Parâmetro",
+                "path": "https://i.imgur.com/ckyahyz.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Vantagem competitiva",
+            "answers": [
+              {
+                "word": "Vantagem organizacional",
+                "path": "https://i.imgur.com/ORGdSKP.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Competitividade",
+                "path": "https://i.imgur.com/Z1vkYpR.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Vantagem competitiva",
+                "path": "https://i.imgur.com/BjbiAj2.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Networking",
+            "answers": [
+              {
+                "word": "Networking",
+                "path": "https://i.imgur.com/BMJtyil.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Trabalho",
+                "path": "https://i.imgur.com/3hY6SLa.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Pessoas",
+                "path": "https://i.imgur.com/llLxHyi.gif",
+                "right_answer": false
+              }
+            ]
+          }
+        ]
       },
       {
         "difficulty": "hard",
         "name": "Difícil",
-        "path": "dificil ",
+        "path": "dificil",
         "image_url": "https://i.imgur.com/wmrvHiz.png",
-        "questions": []
+        "questions": [
+          {
+            "word": "Plano de ação",
+            "answers": [
+              {
+                "word": "Plano organizacional",
+                "path": "https://i.imgur.com/Mau2T1F.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Planejamento eficaz",
+                "path": "https://i.imgur.com/GV6n1eV.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Plano de ação",
+                "path": "https://i.imgur.com/aZicUoR.gif",
+                "right_answer": true
+              }
+            ]
+          },
+          {
+            "word": "Workshop",
+            "answers": [
+              {
+                "word": "Workshop",
+                "path": "https://i.imgur.com/KLVsElE.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Família",
+                "path": "https://i.imgur.com/YbcXomT.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Cursos",
+                "path": "https://i.imgur.com/Bmjsvh2.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "On the job",
+            "answers": [
+              {
+                "word": "On the job",
+                "path": "https://i.imgur.com/absOIXH.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Ir trabalhar",
+                "path": "https://i.imgur.com/3mYtBIV.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Trabalho",
+                "path": "https://i.imgur.com/3hY6SLa.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Just in time",
+            "answers": [
+              {
+                "word": "Just in time",
+                "path": "https://i.imgur.com/8upbDv0.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Horário certo",
+                "path": "https://i.imgur.com/HH2GHkz.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Relógio",
+                "path": "https://i.imgur.com/J8eLsQp.gif",
+                "right_answer": false
+              }
+            ]
+          },
+          {
+            "word": "Learning organization",
+            "answers": [
+              {
+                "word": "Organização estudando",
+                "path": "https://i.imgur.com/5gJml8i.gif",
+                "right_answer": false
+              },
+              {
+                "word": "Learning organization",
+                "path": "https://i.imgur.com/kMDJpsH.gif",
+                "right_answer": true
+              },
+              {
+                "word": "Aprendendo",
+                "path": "https://i.imgur.com/3OyIhwX.gif",
+                "right_answer": false
+              }
+            ]
+          }
+        ]
       }
     ]
   },
