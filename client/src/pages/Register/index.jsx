@@ -1,15 +1,46 @@
 import { Button } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { InputBox } from "../../components/InputBox";
+import api from "../../services/api";
 import styles from "./styles.module.scss";
 
 // Página de cadastro
 export const Register = () => {
   const { register, handleSubmit } = useForm();
 
-  const onSubmitForm = (data) => console.log(data);
+  const navigate = useNavigate();
+
+  const createUser = async (data) => {
+    try {
+      await api.post("/", data);
+
+      alert("Cadastro realizado com sucesso!");
+
+      navigate(`${data.name}/aprender`);
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  const onSubmitForm = (data) => {
+    if (
+      data.email !== data.email_confirm ||
+      data.password !== data.password_confirm
+    ) {
+      alert("Dados inválidos! Por favor, preencha os campos corretamente.");
+    } else {
+      const user = {
+        name: data.name,
+        email: data.email,
+        password: data.password,
+        xp_points: 0,
+      };
+
+      createUser(user);
+    }
+  };
 
   return (
     <>

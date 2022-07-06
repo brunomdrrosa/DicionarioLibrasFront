@@ -31,7 +31,7 @@ class UserController implements IUserController {
         },
       });
 
-      res.status(200).send({ message: "Usuário cadastrado com sucesso" });
+      res.status(201).send();
     } catch (error: unknown) {
       console.log(error);
 
