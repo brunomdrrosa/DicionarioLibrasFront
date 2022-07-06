@@ -2,7 +2,8 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import express, { Express } from "express";
 import routes from "./routes/routes";
-import { Port } from "./types";
+
+type Port = string | number;
 
 const app: Express = express();
 const port: Port = process.env.PORT || 3333;
